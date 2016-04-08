@@ -13,7 +13,6 @@ router.get('/spell/class/:classval', function(req, res, next){
             return next(err);
         }
         for(var i = 0; i < spells.length; i++){
-            console.log(spells[i].learnedby);
             for(var j = 0; j < spells[i].learnedby.length; j++){
                 if(spells[i].learnedby[j] == spellClass){
                     spellBundle.push(spells[i]);
@@ -28,35 +27,58 @@ router.get('/spell/class/:classval', function(req, res, next){
 
 router.get('/spell/level/:levelval', function(req, res, next){
     var spellLevel = req.params.levelval;
+    var spellBundle = [];
     console.log(spellLevel);
     Spell.find(function(err, spells){
         if(err){
             return next(err);
         }
-        res.send(spells);
+        for(var i = 0; i < spells.length; i++){
+            if(spells[i].level == spellLevel){
+                spellBundle.push(spells[i]);
+            }
+        }
+        res.send(spellBundle);
     });
 });
 
 router.get('/spell/name/:nameval', function(req, res, next){
     var spellName = req.params.nameval;
+    spellName = spellName.toLowerCase();
+    var spellBundle = [];
     console.log(spellName);
     Spell.find(function(err, spells){
         if(err){
             return next(err);
         }
-        res.send(spells);
+        for(var i = 0; i < spells.length; i++){
+            var tempName = spells[i].name.toLowerCase();
+            if(tempName == spellName){
+                spellBundle.push(spells[i])
+            }
+        }
+        res.send(spellBundle);
     });
 });
 
 router.get('/spell/classlevel/:classval/:levelval', function(req, res, next){
     var spellClass = req.params.classval;
     var spellLevel = req.params.levelval;
+    var spellBundle = [];
     console.log(spellClass, spellLevel);
     Spell.find(function(err, spells){
         if(err){
             return next(err);
         }
-        res.send(spells);
+        for(var i = 0; i < spells.length; i++){
+            for(var j = 0; j < spells[i].learnedby.length; j++){
+                if(spells[i].learnedby[j] == spellClass && spells[i].level == spellLevel){
+                    spellBundle.push(spells[i]);
+                    console.log(spellBundle);
+                }
+            }
+        }
+        res.send(spellBundle);
     });
 });
 

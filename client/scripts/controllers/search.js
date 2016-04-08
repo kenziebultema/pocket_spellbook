@@ -13,4 +13,6 @@ myApp.controller('SearchController', ['$scope', 'SearchService', function($scope
             SearchService.getByLevel(data.level);
         }
     }
+
+    $scope.spellArray = SearchService.spellObject;
 }]);
