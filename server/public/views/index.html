@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Pocket Spellbook</title>
+
+    <!-- STYLES -->
+    <!-- <link rel="stylesheet" href="/assets/vendors/sass" -->
+    <link rel="stylesheet" href="/assets/styles/styles.css" />
+
+    <!-- ANGULAR -->
+    <script type="text/javascript" src="/assets/vendors/angular/angular.min.js"></script>
+    <script type="text/javascript" src="/assets/vendors/angular-route/angular-route.min.js"></script>
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+
+</head>
+<body>
+    <ng-include src="'/views/partials/header.html'"></ng-include>
+    <a href="#home">HOME</a>
+    <a href="#search">SEARCH</a>
+    <main ng-view></main>
+    <ng-inclue src="'/views/partials/footer.html'"></ng-inclue>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<input ng-model="spellObject.name" type="text" placeholder="Search..." />
+<select ng-model="spellObject.class">
+    <option value="Sorcerer">Sorcerer</option>
+</select>
+<select ng-model="spellObject.level">
+    <option value="1">1</option>
+</select>
+<input type="submit" ng-click="submit(spellObject)" value="Go" />
+
+<button ng-model="Cantrip" ng-click="getCantrip()">Get Cantrips</button>
