@@ -1,9 +1,29 @@
 <input ng-model="spellObject.name" type="text" placeholder="Search..." />
 <select ng-model="spellObject.class">
+    <option>Choose a Class</option>
+    <option value="Bard">Bard</option>
+    <option value="Cleric">Cleric</option>
+    <option value="Druid">Druid</option>
+    <option value="Paladin">Paladin</option>
+    <option value="Ranger">Ranger</option>
     <option value="Sorcerer">Sorcerer</option>
+    <option value="Warlock">Warlock</option>
+    <option value="Wizard">Wizard</option>
+
 </select>
 <select ng-model="spellObject.level">
+    <option>Choose a Level</option>
+    <option value="Cantrip">Cantrip</option>
     <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+
 </select>
 <input type="submit" ng-click="submit(spellObject)" value="Go" />
 

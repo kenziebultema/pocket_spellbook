@@ -9,7 +9,7 @@
     "description": "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won’t set off the alarm. You also choose whether the alarm is mental or audible. A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping. An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.",
     "damagetype": "None",
     "die": "None",
-    "learnedby": "Ranger, Wizard"
+    "learnedby": ["Ranger", "Wizard"]
 }, {
     "name": "Animal Friendship",
     "level": "one",
@@ -21,7 +21,7 @@
     "description": "This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast’s Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell’s duration. If you or one of your companions harms the target, the spells ends. At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st.",
     "damagetype": "None",
     "die": "None",
-    "learnedby": "Bard, Druid, Ranger"
+    "learnedby": ["Bard", "Druid", "Ranger"]
 }, {
     "name": "Armor of Agathys",
     "level": "one",
@@ -33,7 +33,7 @@
     "description": "A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage. At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot level above 1st.",
     "damagetype": "Cold",
     "die": "None",
-    "learnedby": "Warlock"
+    "learnedby": ["Warlock"]
 }, {
     "name": "Arms of Hadar",
     "level": "one",
@@ -45,7 +45,7 @@
     "description": "You invoke the power of Hadar, the Dark Hunger. Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you. Each creature in that area must make a Strength saving throw. On a failed save, a target takes 2d6 necrotic damage and can’t take reactions until its next turn. On a successful save, the creature takes half damage, but suffers no other effect. At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
     "damagetype": "Necrotic",
     "die": "2d6",
-    "learnedby": "Warlock"
+    "learnedby": ["Warlock"]
 }, {
     "name": "Bane",
     "level": "one",
@@ -57,7 +57,7 @@
     "description": "Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw. At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
     "damagetype": "None",
     "die": "1d4",
-    "learnedby": "Bard, Cleric"
+    "learnedby": ["Bard", "Cleric"]
 }, {
     "name": "Bless",
     "level": "one",
@@ -69,7 +69,7 @@
     "description": "You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw. At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
     "damagetype": "None",
     "die": "1d4",
-    "learnedby": "Cleric, Paladin"
+    "learnedby": ["Cleric", "Paladin"]
 }, {
     "name": "Burning Hands",
     "level": "one",
@@ -81,7 +81,7 @@
     "description": "As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
     "damagetype": "Fire",
     "die": "3d6",
-    "learnedby": "Sorcerer, Wizard"
+    "learnedby": ["Sorcerer", "Wizard"]
 }, {
     "name": "Charm Person",
     "level": "one",
@@ -93,7 +93,7 @@
     "description": "You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you. At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.",
     "damagetype": "None",
     "die": "None",
-    "learnedby": "Bard, Druid, Sorcerer, Warlock, Wizard"
+    "learnedby": ["Bard", "Druid", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Chromatic Orb",
     "level": "one",
@@ -105,7 +105,7 @@
     "description": "You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose. At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
     "damagetype": "Choose (acid, cold, fire, lightning, poison, thunder)",
     "die": "3d8",
-    "learnedby": "Sorcerer, Wizard"
+    "learnedby": ["Sorcerer", "Wizard"]
 }, {
     "name": "Color Spray",
     "level": "one",
@@ -117,5 +117,5 @@
     "description": "A dazzling array of flashing, colored light springs from your hand. Roll 6d10; the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can’t see). Starting with the creature that has the lowest current hit points, each creature affected by this spell is blinded until the spell ends. Subtract each creature’s hit points from the total before moving on to the creature with the next lowest hit points. A creature’s hit points must be equal to or less than the remaining total for that creature to be affected. At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st.",
     "damagetype": "None",
     "die": "6d10",
-    "learnedby": "Sorcerer, Wizard"
+    "learnedby": ["Sorcerer", "Wizard"]
 }

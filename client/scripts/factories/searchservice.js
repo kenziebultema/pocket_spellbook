@@ -1,26 +1,35 @@
 myApp.factory('SearchService', ['$http', function($http){
-    var works = function(){
-        console.log('factory works');
-    }
 
-    var spellObject = {};
+    // var spellObject = {};
 
-    var getSpells = function(){
-        $http.get('/spell').then(function(response){
-            spellObject.response = response.data;
-            console.log(spellObject);
+    var getByClass = function(class){
+        $http.get('/spell/class/' + class).then(function(response){
+            console.log(response.data);
         });
     };
 
-    var getCantrips = function(){
-        $http.get('/').then(function(response){
+    var getByLevel = function(level){
+        $http.get('/spell/level/' + level).then(function(response){
+            console.log(response.data);
+        });
+    };
+
+    var getByName = function(name){
+        $http.get('/spell/name/' + name).then(function(response){
+            console.log(response.data);
+        });
+    };
+
+    var getByClassLevel = function(class, level){
+        $http.get('/spell/classlevel/' + class + '/' +  level).then(function(response){
             console.log(response.data);
         });
     };
 
     return {
-        works: works,
-        getSpells: getSpells,
-        getCantrips: getCantrips,
+        getByName: getByName,
+        getByLevel: getByLevel,
+        getByClass: getByClass,
+        getByClassLevel: getByClassLevel,
     };
 }]);

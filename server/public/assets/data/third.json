@@ -9,7 +9,7 @@
     "description": "Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of your next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action. While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can’t see anything there more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creatures that aren’t there can’t perceive you or interact with you, unless they have the ability to do so.",
     "damagetype": "None",
     "die": "1d20",
-    "learnedby": "Sorcerer, Wizard"
+    "learnedby": ["Sorcerer", "Wizard"]
 }, {
     "name": "Clairvoyance",
     "level": "three",
@@ -21,7 +21,7 @@
     "description": "You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can’t be attacked or otherwise interacted with. When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing. A creature that can see the sensor (such as a creature benefiting from see invisibility or truesight) sees a luminous, intangible orb about the size of your fist.",
     "damagetype": "None",
     "die": "None",
-    "learnedby": "Bard, Cleric, Sorcerer, Wizard"
+    "learnedby": ["Bard", "Cleric", "Sorcerer", "Wizard"]
 }, {
     "name": "Counterspell",
     "level": "three",
@@ -33,7 +33,7 @@
     "description": "You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s level. On a success, the creature’s spell fails and has no effect. At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.",
     "damagetype": "None",
     "die": "None",
-    "learnedby": "Sorcerer, Warlock, Wizard"
+    "learnedby": ["Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Daylight",
     "level": "three",
@@ -45,7 +45,7 @@
     "description": "A 60-foot-radius sphere of light spreads out from a point you choose within range. The sphere is bright light and sheds dim light for an additional 60 feet. If you chose a point on an object you are holding or one that isn’t being worn or carried, the light shines from the object and moves with it. Completely covering the affected object with an opaque object, such as a bowl or a helm, blocks the light. If any of this spell’s area overlaps with an area of darkness created by a spell of 3rd level or lower, the spell that created the darkness is dispelled.",
     "damagetype": "None",
     "die": "None",
-    "learnedby": "Cleric, Druid, Paladin, Ranger, Sorcerer"
+    "learnedby": ["Cleric", "Druid", "Paladin", "Ranger", "Sorcerer"]
 }, {
     "name": "Dispel Magic",
     "level": "three",
@@ -57,7 +57,7 @@
     "description": "Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s level. On a successful check, the spell ends. At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell’s level is equal to or less than the level of the spell slot you used.",
     "damagetype": "None",
     "die": "None",
-    "learnedby": "Bard, Cleric, Druid, Paladin, Sorcerer, Warlock, Wizard"
+    "learnedby": ["Bard", "Cleric", "Druid", "Paladin", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Fear",
     "level": "three",
@@ -69,7 +69,7 @@
     "description": "You project a phantasmal image of a creature’s worst fears. Each creature in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever it is holding and become frightened for the duration. While frightened by this spell, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn’t have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the spell ends for that creature.",
     "damagetype": "None",
     "die": "None",
-    "learnedby": "Bard, Sorcerer, Warlock, Wizard"
+    "learnedby": ["Bard", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Fireball",
     "level": "three",
@@ -81,7 +81,7 @@
     "description": "A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried. At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
     "damagetype": "Fire",
     "die": "8d6",
-    "learnedby": "Sorcerer, Wizard"
+    "learnedby": ["Sorcerer", "Wizard"]
 }, {
     "name": "Fly",
     "level": "three",
@@ -93,7 +93,7 @@
     "description": "You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall. At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.",
     "damagetype": "None",
     "die": "None",
-    "learnedby": "Sorcerer, Warlock, Wizard"
+    "learnedby": ["Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Gaseous Form",
     "level": "three",
@@ -105,7 +105,7 @@
     "description": "You transform a willing creature you touch, along with everything it’s wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn’t affected. While in this form, the target’s only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when stunned or otherwise incapacitated. While in the form of a misty cloud, the target can’t talk or manipulate objects, and any objects it was carrying or holding can’t be dropped, used, or otherwise interacted with. The target can’t attack or cast spells.",
     "damagetype": "None",
     "die": "None",
-    "learnedby": "Sorcerer, Warlock, Wizard"
+    "learnedby": ["Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Haste",
     "level": "three",
@@ -117,5 +117,5 @@
     "description": "Choose a willing creature that you can see within range. Until the spell ends, the target’s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action. When the spell ends, the target can’t move or take actions until after its next turn, as a wave of lethargy sweeps over it.",
     "damagetype": "None",
     "die": "None",
-    "learnedby": "Sorcerer, Wizard"
+    "learnedby": ["Sorcerer", "Wizard"]
 }
