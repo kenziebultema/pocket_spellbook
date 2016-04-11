@@ -1,6 +1,6 @@
 <input ng-model="spellInfo.name" type="text" placeholder="Search..." />
 <select ng-model="spellInfo.class">
-    <option>Choose a Class</option>
+    <option value="">Choose a Class</option>
     <option value="Bard">Bard</option>
     <option value="Cleric">Cleric</option>
     <option value="Druid">Druid</option>
@@ -12,7 +12,7 @@
 
 </select>
 <select ng-model="spellInfo.level">
-    <option>Choose a Level</option>
+    <option value="">Choose a Level</option>
     <option value="cantrip">Cantrip</option>
     <option value="one">1</option>
     <option value="two">2</option>
@@ -27,18 +27,39 @@
 </select>
 <input type="submit" ng-click="submit(spellInfo)" value="Go" />
 
+Spell Type
+<input type="checkbox" ng-model="typeChecked" />
+Components Needed
+<input type="checkbox" ng-model="componentsChecked" />
+Spell Description
+<input type="checkbox" ng-model="descriptionChecked" />
+Learned By
+<input type="checkbox" ng-model="learnedbyChecked" />
+
 <div ng-repeat="spell in spellArray.response" class="spell-container">
     <p>
-        <h3 class="name">{{spell.name}}</h3>
-        <div class="level">Level {{spell.level}}</div><div class="type"> {{spell.type}}</div>
+        <div class="name"><b>{{spell.name}}</b></div>
+        <div class="level">Level {{spell.level}}</div><div class="type" ng-hide="typeChecked"> {{spell.type}}</div>
     </p>
     <p>
         <div class="cast-time"><b>Casting Time: </b>{{spell.casttime}}</div>
         <div class="range"><b>Range: </b>{{spell.range}}</div>
-        <div class="components"><b>Components: </b>{{spell.components}}</div>
+        <div class="components" ng-hide="componentsChecked"><b>Components: </b>{{spell.components}}</div>
         <div class="duration"><b>Duration: </b>{{spell.duration}}</div>
     </p>
     <p>
-        <div class="description">{{spell.description}}</div>
+        <div class="description" ng-hide="descriptionChecked">{{spell.description}}</div>
     </p>
+    <p>
+        <div class="learnedby" ng-hide="learnedbyChecked"><b>Classes Able to Learn: </b> <span ng-repeat="class in spell.learnedby">
+            {{class}}</span>
+        </div>
+        <div class="damagetype">
+            <b>Damage Type: </b> {{spell.damagetype}}
+        </div>
+        <div class="die">
+            <b>Dice Used: </b> {{spell.die}}
+        </div>
+    </p>
+    <div class="separator"></div>
 </div>

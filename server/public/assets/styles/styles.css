@@ -1,3 +1,31 @@
+/*ALL THINGS*/
+body {
+    background-color: black;
+}
+header {
 
+}
+footer {
+
+}
+.container {
+    text-align: center;
+}
+.header-img {
+    height: 78px;
+    /*width: 78px;*/
+}
+
+/*HOME PAGE*/
+.home-img {
+    height: 80%;
+    width: 70%;
+}
+.home-search {
+    display: block;
+    margin: 0 auto;
+}
+
+/*SEARCH PAGE*/
 
 /*# sourceMappingURL=styles.css.map */
