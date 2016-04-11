@@ -1,5 +1,5 @@
-<input ng-model="spellObject.name" type="text" placeholder="Search..." />
-<select ng-model="spellObject.class">
+<input ng-model="spellInfo.name" type="text" placeholder="Search..." />
+<select ng-model="spellInfo.class">
     <option>Choose a Class</option>
     <option value="Bard">Bard</option>
     <option value="Cleric">Cleric</option>
@@ -11,7 +11,7 @@
     <option value="Wizard">Wizard</option>
 
 </select>
-<select ng-model="spellObject.level">
+<select ng-model="spellInfo.level">
     <option>Choose a Level</option>
     <option value="cantrip">Cantrip</option>
     <option value="one">1</option>
@@ -25,7 +25,7 @@
     <option value="nine">9</option>
 
 </select>
-<input type="submit" ng-click="submit(spellObject)" value="Go" />
+<input type="submit" ng-click="submit(spellInfo)" value="Go" />
 
 <div ng-repeat="spell in spellArray.response" class="spell-container">
     <h4>Name: </h4> {{spell.name}}

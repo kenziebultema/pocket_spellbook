@@ -16,11 +16,11 @@ router.get('/spell/class/:classval', function(req, res, next){
             for(var j = 0; j < spells[i].learnedby.length; j++){
                 if(spells[i].learnedby[j] == spellClass){
                     spellBundle.push(spells[i]);
-                    console.log(spellBundle);
+                    // console.log(spellBundle);
                 }
             }
         }
-        console.log('bundle', spellBundle);
+        // console.log('bundle', spellBundle);
         res.send(spellBundle);
     });
 });
