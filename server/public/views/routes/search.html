@@ -28,8 +28,17 @@
 <input type="submit" ng-click="submit(spellInfo)" value="Go" />
 
 <div ng-repeat="spell in spellArray.response" class="spell-container">
-    <h4>Name: </h4> {{spell.name}}
-    <h5>Level: </h5> {{spell.level}}
-    <h5>Dice: </h5> {{spell.die}}
-    <h5>Damage Type: </h5> {{spell.damagetype}}
+    <p>
+        <h3 class="name">{{spell.name}}</h3>
+        <div class="level">Level {{spell.level}}</div><div class="type"> {{spell.type}}</div>
+    </p>
+    <p>
+        <div class="cast-time"><b>Casting Time: </b>{{spell.casttime}}</div>
+        <div class="range"><b>Range: </b>{{spell.range}}</div>
+        <div class="components"><b>Components: </b>{{spell.components}}</div>
+        <div class="duration"><b>Duration: </b>{{spell.duration}}</div>
+    </p>
+    <p>
+        <div class="description">{{spell.description}}</div>
+    </p>
 </div>
