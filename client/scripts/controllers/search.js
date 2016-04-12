@@ -1,4 +1,5 @@
 myApp.controller('SearchController', ['$scope', 'SearchService', function($scope, SearchService){
+    $scope.spellInfo = {};
 
     $scope.submit = function(data){
         if(!data){
@@ -12,6 +13,7 @@ myApp.controller('SearchController', ['$scope', 'SearchService', function($scope
         } else if(data.level){
             SearchService.getByLevel(data.level);
         }
+        $scope.spellInfo = {};
     }
 
     $scope.spellArray = SearchService.spellObject;

@@ -1,0 +1,114 @@
+//variable assignments
+$gold: #ffd700;
+$red: #f21623;
+
+@font-face {
+    font-family: 'Vecna';
+    src: url('../fonts/pixel-sagas_vecna/Vecna.otf');
+}
+
+
+/*ALL THINGS*/
+body {
+    background-color: beige;
+    // background-image: url('../images/Old-Paper.jpg');
+    background-size: 100%;
+    background-repeat: repeat-y;;
+    margin: 0;
+}
+header {
+    // background-color: $red;
+    height: 50px;
+    width: 100%;
+    padding-top: 10px;
+    // border-bottom: 2px solid $gold;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: black;
+    opacity: 0.7;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0%;
+}
+.container {
+    text-align: center;
+}
+
+/*HEADER*/
+.header-img {
+    height: 100%;
+    float: left;
+}
+
+// FOOTER
+.footer-img {
+    height: 100%;
+}
+
+/*HOME PAGE*/
+.home-img {
+    height: 40%;
+    width: 20%;
+}
+.app-name {
+    font-family: 'Vecna', sans-serif;
+    font-size: 80px;
+    line-height: 82px;
+    margin: 0;
+}
+.home-search {
+    display: block;
+    margin: 0 auto;
+}
+
+/*SEARCH PAGE*/
+.spellinfo-container {
+    margin: 0 0 20px 30px;
+    width: 60%;
+}
+.search-bar {
+    height: 25px;
+    width: 120%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+input.spell-name {
+    margin-left: 30px;
+    height: 21px;
+    width: 20%;
+    float: left;
+    border: 1px solid $gold;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+input.magn-img {
+    height: 25px;
+    background-color: $gold;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.spell-class, .spell-level {
+
+}
+.toggle-container {
+    border-right: 2px solid $red;
+    margin-right: 5px;
+    padding: 5px;
+    width: 17%;
+}
+.spell-container {
+    width: 90%;
+    margin: 0 5%;
+}
+.separator {
+    clear: both;
+    border: 2px solid $red;
+    height: 0;
+    width: 90%;
+    border-radius: 100%;
+    margin: 0 5%;
+}

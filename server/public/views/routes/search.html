@@ -1,40 +1,67 @@
-<input ng-model="spellInfo.name" type="text" placeholder="Search..." />
-<select ng-model="spellInfo.class">
-    <option value="">Choose a Class</option>
-    <option value="Bard">Bard</option>
-    <option value="Cleric">Cleric</option>
-    <option value="Druid">Druid</option>
-    <option value="Paladin">Paladin</option>
-    <option value="Ranger">Ranger</option>
-    <option value="Sorcerer">Sorcerer</option>
-    <option value="Warlock">Warlock</option>
-    <option value="Wizard">Wizard</option>
+<ng-include src="'../views/partials/header.html'"></ng-include>
+<div class="spellinfo-container">
 
-</select>
-<select ng-model="spellInfo.level">
-    <option value="">Choose a Level</option>
-    <option value="cantrip">Cantrip</option>
-    <option value="one">1</option>
-    <option value="two">2</option>
-    <option value="three">3</option>
-    <option value="four">4</option>
-    <option value="five">5</option>
-    <option value="six">6</option>
-    <option value="seven">7</option>
-    <option value="eight">8</option>
-    <option value="nine">9</option>
+<form ng-submit="submit(spellInfo)">
 
-</select>
-<input type="submit" ng-click="submit(spellInfo)" value="Go" />
+    <div class="search-bar">
+        <input type="text" ng-model="spellInfo.name" class="spell-name" placeholder="Search..."/>
+        <input type="image" alt="submit" ng-src="../assets/images/searchglass.png" class="magn-img" value="Go" />
+    </div>
 
-Spell Type
-<input type="checkbox" ng-model="typeChecked" />
-Components Needed
-<input type="checkbox" ng-model="componentsChecked" />
-Spell Description
-<input type="checkbox" ng-model="descriptionChecked" />
-Learned By
-<input type="checkbox" ng-model="learnedbyChecked" />
+
+
+    <select class="spell-class" ng-model="spellInfo.class">
+        <option value="">Choose a Class</option>
+        <option value="Bard">Bard</option>
+        <option value="Cleric">Cleric</option>
+        <option value="Druid">Druid</option>
+        <option value="Paladin">Paladin</option>
+        <option value="Ranger">Ranger</option>
+        <option value="Sorcerer">Sorcerer</option>
+        <option value="Warlock">Warlock</option>
+        <option value="Wizard">Wizard</option>
+    </select>
+
+    <select class="spell-level" ng-model="spellInfo.level">
+        <option value="">Choose a Level</option>
+        <option value="cantrip">Cantrip</option>
+        <option value="one">1</option>
+        <option value="two">2</option>
+        <option value="three">3</option>
+        <option value="four">4</option>
+        <option value="five">5</option>
+        <option value="six">6</option>
+        <option value="seven">7</option>
+        <option value="eight">8</option>
+        <option value="nine">9</option>
+    </select>
+    </div>
+</form>
+
+<div class="toggle-container">
+    <p>
+        <input type="checkbox" ng-model="typeChecked" />
+        Spell Type
+    </p>
+    <p>
+        <input type="checkbox" ng-model="componentsChecked" />
+        Components Needed
+
+    </p>
+    <p>
+        <input type="checkbox" ng-model="descriptionChecked" />
+        Spell Description
+
+    </p>
+    <p>
+        <input type="checkbox" ng-model="learnedbyChecked" />
+        Learned By
+
+    </p>
+    <div class="toggle-separator">
+        
+    </div>
+</div>
 
 <div ng-repeat="spell in spellArray.response" class="spell-container">
     <p>
