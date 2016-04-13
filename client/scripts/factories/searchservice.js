@@ -5,7 +5,7 @@ myApp.factory('SearchService', ['$http', function($http){
     var getByClass = function(class){
         $http.get('/spell/class/' + class).then(function(response){
             spellObject.response = response.data;
-            console.log(spellObject);
+            console.log(response.data);
         });
     };
 
@@ -30,11 +30,19 @@ myApp.factory('SearchService', ['$http', function($http){
         });
     };
 
+    // var getAll = function(){
+    //     $http.get('/spell').then(function(response){
+    //         spellObject.response = response.data;
+    //         console.log(spellObject);
+    //     });
+    // };
+
     return {
         getByName: getByName,
         getByLevel: getByLevel,
         getByClass: getByClass,
         getByClassLevel: getByClassLevel,
         spellObject: spellObject
+        // getAll: getAll
     };
 }]);

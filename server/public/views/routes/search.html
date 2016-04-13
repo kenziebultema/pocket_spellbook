@@ -1,16 +1,15 @@
 <ng-include src="'../views/partials/header.html'"></ng-include>
 <div class="spellinfo-container">
 
-<form ng-submit="submit(spellInfo)">
+<form ng-submit="submitAndClear(spellInfo)">
 
     <div class="search-bar">
         <input type="text" ng-model="spellInfo.name" class="spell-name" placeholder="Search..."/>
         <input type="image" alt="submit" ng-src="../assets/images/searchglass.png" class="magn-img" value="Go" />
-    </div>
 
+    <div class="clearfix"></div>
 
-
-    <select class="spell-class" ng-model="spellInfo.class">
+    <select class="spell-class" ng-model="spellInfo.class" ng-change="submit(spellInfo)">
         <option value="">Choose a Class</option>
         <option value="Bard">Bard</option>
         <option value="Cleric">Cleric</option>
@@ -22,7 +21,7 @@
         <option value="Wizard">Wizard</option>
     </select>
 
-    <select class="spell-level" ng-model="spellInfo.level">
+    <select class="spell-level" ng-model="spellInfo.level" ng-change="submit(spellInfo)">
         <option value="">Choose a Level</option>
         <option value="cantrip">Cantrip</option>
         <option value="one">1</option>
@@ -37,8 +36,11 @@
     </select>
     </div>
 </form>
+</div>
 
-<div class="toggle-container">
+<div class="clearfix"></div>
+
+<!-- <div class="toggle-container">
     <p>
         <input type="checkbox" ng-model="typeChecked" />
         Spell Type
@@ -59,9 +61,9 @@
 
     </p>
     <div class="toggle-separator">
-        
+
     </div>
-</div>
+</div> -->
 
 <div ng-repeat="spell in spellArray.response" class="spell-container">
     <p>

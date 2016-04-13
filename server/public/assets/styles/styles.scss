@@ -1,4 +1,12 @@
-//variable assignments
+//ORDER
+// variable assignments
+// used in all
+// header
+// footer
+// home page
+// search page
+
+// VARIABLE ASSIGNMENTS /////////////////////////////////////
 $gold: #ffd700;
 $red: #f21623;
 
@@ -8,10 +16,10 @@ $red: #f21623;
 }
 
 
-/*ALL THINGS*/
+// USED IN ALL //////////////////////////////////////////////
 body {
     background-color: beige;
-    // background-image: url('../images/Old-Paper.jpg');
+    background-image: url('../images/Old-Paper.jpg');
     background-size: 100%;
     background-repeat: repeat-y;;
     margin: 0;
@@ -21,7 +29,6 @@ header {
     height: 50px;
     width: 100%;
     padding-top: 10px;
-    // border-bottom: 2px solid $gold;
     margin-bottom: 20px;
 }
 footer {
@@ -34,25 +41,31 @@ footer {
     position: relative;
     bottom: 0%;
 }
+select {
+    border: 1px solid $red;
+}
+.clearfix {
+    clear: both;
+}
 .container {
     text-align: center;
 }
 
-/*HEADER*/
+// HEADER ///////////////////////////////////////////////////////
 .header-img {
     height: 100%;
     float: left;
 }
 
-// FOOTER
+// FOOTER //////////////////////////////////////////////////////
 .footer-img {
     height: 100%;
 }
 
-/*HOME PAGE*/
+// HOME PAGE //////////////////////////////////////////////////
 .home-img {
-    height: 40%;
-    width: 20%;
+    height: 50%;
+    width: 30%;
 }
 .app-name {
     font-family: 'Vecna', sans-serif;
@@ -65,34 +78,38 @@ footer {
     margin: 0 auto;
 }
 
-/*SEARCH PAGE*/
+// SEARCH PAGE ////////////////////////////////////////////////
 .spellinfo-container {
     margin: 0 0 20px 30px;
-    width: 60%;
+    width: 50%;
+}
+form {
+    width: 100%;
 }
 .search-bar {
     height: 25px;
-    width: 120%;
+    width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 input.spell-name {
-    margin-left: 30px;
+    margin-left: 10%;
     height: 21px;
-    width: 20%;
+    width: 50%;
     float: left;
-    border: 1px solid $gold;
+    border: 1px solid $red;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 input.magn-img {
     height: 25px;
-    background-color: $gold;
+    background-color: $red;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 .spell-class, .spell-level {
-
+    float: left;
+    margin: 5px 10%;
 }
 .toggle-container {
     border-right: 2px solid $red;
@@ -103,6 +120,16 @@ input.magn-img {
 .spell-container {
     width: 90%;
     margin: 0 5%;
+}
+.name {
+    color: maroon;
+    letter-spacing: 2px;
+}
+.name:first-letter {
+    font-size: 24px;
+}
+.level, .type {
+    font-style: italic;
 }
 .separator {
     clear: both;

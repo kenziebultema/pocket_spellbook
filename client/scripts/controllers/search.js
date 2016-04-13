@@ -1,5 +1,6 @@
 myApp.controller('SearchController', ['$scope', 'SearchService', function($scope, SearchService){
     $scope.spellInfo = {};
+    // $scope.getAll = SearchService.getAll();
 
     $scope.submit = function(data){
         if(!data){
@@ -13,6 +14,10 @@ myApp.controller('SearchController', ['$scope', 'SearchService', function($scope
         } else if(data.level){
             SearchService.getByLevel(data.level);
         }
+    }
+
+    $scope.submitAndClear = function(data){
+        $scope.submit(data);
         $scope.spellInfo = {};
     }
 

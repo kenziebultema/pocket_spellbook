@@ -15,6 +15,7 @@ router.get('/spell/class/:classval', function(req, res, next){
         for(var i = 0; i < spells.length; i++){
             for(var j = 0; j < spells[i].learnedby.length; j++){
                 if(spells[i].learnedby[j] == spellClass){
+                    spells[i].name = spells[i].name.toUpperCase();
                     spellBundle.push(spells[i]);
                     // console.log(spellBundle);
                 }
@@ -35,6 +36,7 @@ router.get('/spell/level/:levelval', function(req, res, next){
         }
         for(var i = 0; i < spells.length; i++){
             if(spells[i].level == spellLevel){
+                spells[i].name = spells[i].name.toUpperCase();
                 spellBundle.push(spells[i]);
             }
         }
@@ -54,6 +56,7 @@ router.get('/spell/name/:nameval', function(req, res, next){
         for(var i = 0; i < spells.length; i++){
             var tempName = spells[i].name.toLowerCase();
             if(tempName == spellName){
+                spells[i].name = spells[i].name.toUpperCase();
                 spellBundle.push(spells[i])
             }
         }
@@ -73,14 +76,23 @@ router.get('/spell/classlevel/:classval/:levelval', function(req, res, next){
         for(var i = 0; i < spells.length; i++){
             for(var j = 0; j < spells[i].learnedby.length; j++){
                 if(spells[i].learnedby[j] == spellClass && spells[i].level == spellLevel){
+                    spells[i].name = spells[i].name.toUpperCase();
                     spellBundle.push(spells[i]);
-                    console.log(spellBundle);
                 }
             }
         }
         res.send(spellBundle);
     });
 });
+
+// router.get('/spell', function(req, res, next){
+//     Spell.find(function(err, spells){
+//         if(err){
+//             return next(err);
+//         }
+//         res.send(spells);
+//     });
+// });
 
 router.get('/*', function(req, res, next){
     var file = req.params[0] || '/views/index.html';
