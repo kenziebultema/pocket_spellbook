@@ -3,26 +3,29 @@
   src: url("../fonts/pixel-sagas_vecna/Vecna.otf"); }
 body {
   background-color: beige;
-  background-image: url("../images/Old-Paper.jpg");
-  background-size: 100%;
-  background-repeat: repeat-y;
-  margin: 0; }
+  background-image: url("../images/seamlesshopefully.jpg");
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; }
 
 header {
   height: 50px;
   width: 100%;
   padding-top: 10px;
+  padding-bottom: 10px;
   margin-bottom: 20px; }
 
 footer {
   background-color: black;
   opacity: 0.7;
-  height: 50px;
+  height: 30px;
   width: 100%;
   padding: 10px;
   margin-top: 20px;
-  position: relative;
-  bottom: 0%; }
+  position: fixed;
+  bottom: 0;
+  left: 0; }
 
 select {
   border: 1px solid #f21623; }
@@ -31,14 +34,30 @@ select {
   clear: both; }
 
 .container {
-  text-align: center; }
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 70px; }
+
+.left {
+  float: left; }
 
 .header-img {
-  height: 100%;
-  float: left; }
+  height: 100%; }
 
 .footer-img {
   height: 100%; }
+
+a.dnd-link {
+  color: white;
+  text-decoration: none;
+  font: bold 20px/22px sans-serif; }
+
+.home-container {
+  text-align: center;
+  min-height: 100%;
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 70px; }
 
 .home-img {
   height: 50%;
@@ -48,18 +67,18 @@ select {
   font-family: 'Vecna', sans-serif;
   font-size: 80px;
   line-height: 82px;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
 
-.home-search {
-  display: block;
-  margin: 0 auto; }
+.home-button {
+  height: 60px;
+  width: 60px;
+  border: 5px solid #f21623;
+  border-radius: 100%; }
 
 .spellinfo-container {
   margin: 0 0 20px 30px;
-  width: 50%; }
-
-form {
-  width: 100%; }
+  width: 60%; }
 
 .search-bar {
   height: 25px;
@@ -70,8 +89,7 @@ form {
 input.spell-name {
   margin-left: 10%;
   height: 21px;
-  width: 50%;
-  float: left;
+  width: 70%;
   border: 1px solid #f21623;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px; }
@@ -83,16 +101,20 @@ input.magn-img {
   border-bottom-right-radius: 5px; }
 
 .spell-class, .spell-level {
-  float: left;
-  margin: 5px 10%; }
+  margin: 5px auto 5px 10%;
+  background-color: white; }
+
+.spell-class:active, .spell-level:active {
+  background-color: #f21623; }
 
 .toggle-container {
-  border-right: 2px solid #f21623;
-  margin-right: 5px;
-  padding: 5px;
-  width: 17%; }
+  height: 40px;
+  text-align: center;
+  padding: 5px; }
 
 .spell-container {
+  min-height: 100%;
+  padding-bottom: 10px;
   width: 90%;
   margin: 0 5%; }
 
@@ -113,5 +135,20 @@ input.magn-img {
   width: 90%;
   border-radius: 100%;
   margin: 0 5%; }
+
+@media only screen and (max-width: 500px) {
+  .search-container {
+    width: 90%;
+    margin: 0 auto; }
+
+  .toggle-container {
+    width: 100%; }
+
+  .spellinfo-container {
+    width: 100%;
+    margin: 0; }
+
+  .app-name {
+    font-size: 60px; } }
 
 /*# sourceMappingURL=styles.css.map */
