@@ -1,6 +1,9 @@
 var mongoose = require('mongoose');
 
-var mongoURI = 'mongodb://localhost/pocket_spellbook';
+var mongoURI =
+    process.env.MONGOLAB_URI ||
+    process.env.MONGOHQ_URL ||
+    'mongodb://localhost/pocket_spellbook';
 var MongoDB = mongoose.connect(mongoURI).connection;
 
 MongoDB.on('error', function(err){
