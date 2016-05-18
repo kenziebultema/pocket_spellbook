@@ -1,6 +1,6 @@
 {
     "name": "Banishment",
-    "level": "four",
+    "level": "4th Level",
     "type": "Abjuration",
     "casttime": "1 action",
     "range": "60 ft",
@@ -12,7 +12,7 @@
     "learnedby": ["Cleric", "Paladin", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Blight",
-    "level": "four",
+    "level": "4th Level",
     "type": "Necromancy",
     "casttime": "1 action",
     "range": "30 ft",
@@ -24,7 +24,7 @@
     "learnedby": ["Druid", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Confusion",
-    "level": "four",
+    "level": "4th Level",
     "type": "Enchantment",
     "casttime": "1 action",
     "range": "90 ft",
@@ -36,7 +36,7 @@
     "learnedby": ["Bard", "Druid", "Sorcerer", "Wizard"]
 }, {
     "name": "Dimension Door",
-    "level": "four",
+    "level": "4th Level",
     "type": "Conjuration",
     "casttime": "1 action",
     "range": "500 ft",
@@ -48,7 +48,7 @@
     "learnedby": ["Bard", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Dominate Beast",
-    "level": "four",
+    "level": "4th Level",
     "type": "Enchantment",
     "casttime": "1 action",
     "range": "60 ft",
@@ -60,7 +60,7 @@
     "learnedby": ["Druid", "Sorcerer"]
 }, {
     "name": "Greater Invisibility",
-    "level": "four",
+    "level": "4th Level",
     "type": "Illusion",
     "casttime": "1 action",
     "range": "Touch",
@@ -72,7 +72,7 @@
     "learnedby": ["Bard", "Sorcerer", "Wizard"]
 }, {
     "name": "Ice Storm",
-    "level": "four",
+    "level": "4th Level",
     "type": "Evocation",
     "casttime": "1 action",
     "range": "300 ft",
@@ -84,7 +84,7 @@
     "learnedby": ["Druid", "Sorcerer", "Wizard"]
 }, {
     "name": "Polymorph",
-    "level": "four",
+    "level": "4th Level",
     "type": "Transmutation",
     "casttime": "1 action",
     "range": "60 ft",
@@ -96,7 +96,7 @@
     "learnedby": ["Bard", "Druid", "Sorcerer", "Wizard"]
 }, {
     "name": "Stone Skin",
-    "level": "four",
+    "level": "4th Level",
     "type": "Abjuration",
     "casttime": "1 action",
     "range": "Touch",
@@ -108,7 +108,7 @@
     "learnedby": ["Druid", "Ranger", "Sorcerer", "Wizard"]
 }, {
     "name": "Wall of Fire",
-    "level": "four",
+    "level": "4th Level",
     "type": "Evocation",
     "casttime": "1 action",
     "range": "120 ft",

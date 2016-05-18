@@ -54,6 +54,7 @@ select {
 }
 .container {
     min-height: 100%;
+    width: 100%;
     position: relative;
     padding-bottom: 70px;
 }
@@ -135,14 +136,18 @@ input.magn-img {
     background-color: $red;
 }
 .toggle-container {
-    height: 40px;
+    width: 210px;
+    height: 50px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    flex-wrap: wrap;
     // border: 2px solid $red;
     padding: 5px;
 }
-
-input[type="checkbox"] {
-    // display: block;
+.component-check {
+    margin-left: -20px;
 }
 .spell-container {
     min-height: 100%;
@@ -178,7 +183,8 @@ input[type="checkbox"] {
         margin: 0 auto;
     }
     .toggle-container {
-        width: 100%;
+        // width: 100%;
+        margin: 0 auto;
     }
     .spellinfo-container {
         width: 100%;

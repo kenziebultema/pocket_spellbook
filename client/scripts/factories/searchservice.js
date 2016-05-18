@@ -30,19 +30,19 @@ myApp.factory('SearchService', ['$http', function($http){
         });
     };
 
-    // var getAll = function(){
-    //     $http.get('/spell').then(function(response){
-    //         spellObject.response = response.data;
-    //         console.log(spellObject);
-    //     });
-    // };
+    var getAll = function(){
+        $http.get('/spell').then(function(response){
+            spellObject.response = response.data;
+            console.log(spellObject);
+        });
+    };
 
     return {
         getByName: getByName,
         getByLevel: getByLevel,
         getByClass: getByClass,
         getByClassLevel: getByClassLevel,
-        spellObject: spellObject
-        // getAll: getAll
+        spellObject: spellObject,
+        getAll: getAll
     };
 }]);

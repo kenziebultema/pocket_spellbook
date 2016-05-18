@@ -1,6 +1,6 @@
 {
     "name" : "Acid Splash",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Conjuration",
     "casttime" : "1 action",
     "range" : "60 ft",
@@ -12,7 +12,7 @@
     "learnedby" : ["Sorcerer", "Wizard"]
 }, {
     "name" : "Blade Ward",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Abjuration",
     "casttime" : "1 action",
     "range" : "Self",
@@ -24,7 +24,7 @@
     "learnedby" : ["Bard", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name" : "Chill Touch",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Necromancy",
     "casttime" : "1 action",
     "range" : "120 ft",
@@ -36,7 +36,7 @@
     "learnedby" : ["Sorcerer", "Warlock", "Wizard"]
 }, {
     "name" : "Dancing Lights",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Evocation",
     "casttime" : "1 action",
     "range" : "Touch",
@@ -48,7 +48,7 @@
     "learnedby" : ["Bard", "Sorcerer", "Wizard"]
 }, {
     "name" : "Druidcraft",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Transmutation",
     "casttime" : "1 action",
     "range" : "30 ft",
@@ -60,7 +60,7 @@
     "learnedby" : ["Druid"]
 }, {
     "name" : "Eldritch Blast",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Evocation",
     "casttime" : "1 action",
     "range" : "120 ft",
@@ -72,7 +72,7 @@
     "learnedby" : ["Warlock"]
 }, {
     "name" : "Fire Bolt",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Evocation",
     "casttime" : "1 action",
     "range" : "120 ft",
@@ -84,7 +84,7 @@
     "learnedby" : ["Sorcerer", "Wizard"]
 }, {
     "name" : "Friends",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Enchantment",
     "casttime" : "1 action",
     "range" : "Self",
@@ -96,7 +96,7 @@
     "learnedby" : ["Bard", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name" : "Guidance",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Divination",
     "casttime" : "1 action",
     "range" : "Touch",
@@ -108,7 +108,7 @@
     "learnedby" : ["Cleric", "Druid"]
 }, {
     "name" : "Light",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Evocation",
     "casttime" : "1 action",
     "range" : "Touch",
@@ -120,7 +120,7 @@
     "learnedby" : ["Bard", "Cleric", "Sorcerer", "Wizard"]
 }, {
     "name" : "Mage Hand",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Conjuration",
     "casttime" : "1 action",
     "range" : "30 ft",
@@ -132,7 +132,7 @@
     "learnedby" : ["Bard", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name" : "Mending",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Transmutation",
     "casttime" : "1 minute",
     "range" : "Touch",
@@ -144,7 +144,7 @@
     "learnedby" : ["Bard", "Cleric", "Druid", "Sorcerer", "Wizard"]
 }, {
     "name" : "Message",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Transmutation",
     "casttime" : "1 action",
     "range" : "120 ft",
@@ -156,7 +156,7 @@
     "learnedby" : ["Bard", "Sorcerer", "Wizard"]
 }, {
     "name" : "Minor Illusion",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Illusion",
     "casttime" : "1 action",
     "range" : "30 ft",
@@ -168,7 +168,7 @@
     "learnedby" : ["Bard", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name" : "Poison Spray",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Conjuration",
     "casttime" : "1 action",
     "range" : "10 ft",
@@ -180,7 +180,7 @@
     "learnedby" : ["Druid", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name" : "Prestidigitation",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Transmutation",
     "casttime" : "1 action",
     "range" : "10 ft",
@@ -192,7 +192,7 @@
     "learnedby" : ["Bard", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name" : "Produce Flame",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Conjuration",
     "casttime" : "1 action",
     "range" : "Self",
@@ -204,7 +204,7 @@
     "learnedby" : ["Druid"]
 }, {
     "name" : "Ray of Frost",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Evocation",
     "casttime" : "1 action",
     "range" : "60 ft",
@@ -216,7 +216,7 @@
     "learnedby" : ["Sorcerer", "Wizard"]
 }, {
     "name" : "Resistance",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Abjuration",
     "casttime" : "1 action",
     "range" : "Touch",
@@ -228,7 +228,7 @@
     "learnedby" : ["Cleric", "Druid"]
 }, {
     "name" : "Sacred Flame",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Evocation",
     "casttime" : "1 action",
     "range" : "60 ft",
@@ -240,7 +240,7 @@
     "learnedby" : ["Cleric"]
 }, {
     "name" : "Shillelagh",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Transmutation",
     "casttime" : "1 bonus action",
     "range" : "Touch",
@@ -252,7 +252,7 @@
     "learnedby" : ["Druid"]
 }, {
     "name" : "Shocking Grasp",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Evocation",
     "casttime" : "1 action",
     "range" : "Touch",
@@ -264,7 +264,7 @@
     "learnedby" : ["Sorcerer", "Wizard"]
 }, {
     "name" : "Spare the Dying",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Necromancy",
     "casttime" : "1 action",
     "range" : "Touch",
@@ -276,7 +276,7 @@
     "learnedby" : ["Cleric"]
 }, {
     "name" : "Thaumaturgy",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Transmutation",
     "casttime" : "1 action",
     "range" : "30 ft",
@@ -288,7 +288,7 @@
     "learnedby" : ["Cleric"]
 }, {
     "name" : "Thorn Whip",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Transmutation",
     "casttime" : "1 action",
     "range" : "30 ft",
@@ -300,7 +300,7 @@
     "learnedby" : ["Druid"]
 }, {
     "name" : "True Strike",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Divination",
     "casttime" : "1 action",
     "range" : "30 ft",
@@ -312,7 +312,7 @@
     "learnedby" : ["Bard", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name" : "Vicious Mockery",
-    "level": "cantrip",
+    "level": "Cantrip",
     "type" : "Enchantment",
     "casttime" : "1 action",
     "range" : "60 ft",

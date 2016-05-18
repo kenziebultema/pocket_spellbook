@@ -1,6 +1,6 @@
 {
     "name": "Delayed Blast Fireball",
-    "level": "seven",
+    "level": "7th Level",
     "type": "Evocation",
     "casttime": "1 action",
     "range": "150 ft",
@@ -12,7 +12,7 @@
     "learnedby": ["Sorcerer", "Wizard"]
 }, {
     "name": "Etherealness",
-    "level": "seven",
+    "level": "7th Level",
     "type": "Transmutation",
     "casttime": "1 action",
     "range": "Self",
@@ -24,7 +24,7 @@
     "learnedby": ["Bard", "Cleric", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Finger of Death",
-    "level": "seven",
+    "level": "7th Level",
     "type": "Necromancy",
     "casttime": "1 action",
     "range": "60 ft",
@@ -36,7 +36,7 @@
     "learnedby": ["Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Fire Storm",
-    "level": "seven",
+    "level": "7th Level",
     "type": "Evocation",
     "casttime": "1 action",
     "range": "150 ft",
@@ -48,7 +48,7 @@
     "learnedby": ["Cleric", "Druid", "Sorcerer"]
 }, {
     "name": "Plane Shift",
-    "level": "seven",
+    "level": "7th Level",
     "type": "Conjuration",
     "casttime": "1 action",
     "range": "Touch",
@@ -60,7 +60,7 @@
     "learnedby": ["Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Prismatic Spray",
-    "level": "seven",
+    "level": "7th Level",
     "type": "Evocation",
     "casttime": "1 action",
     "range": "Self (60 ft cone)",
@@ -72,7 +72,7 @@
     "learnedby": ["Sorcerer", "Wizard"]
 }, {
     "name": "Reverse Gravity",
-    "level": "seven",
+    "level": "7th Level",
     "type": "Transmutation",
     "casttime": "1 action",
     "range": "100 ft",
@@ -84,7 +84,7 @@
     "learnedby": ["Druid", "Sorcerer", "Wizard"]
 }, {
     "name": "Simulacrum",
-    "level": "seven",
+    "level": "7th Level",
     "type": "Illusion",
     "casttime": "12 hours",
     "range": "Touch",
@@ -96,7 +96,7 @@
     "learnedby": ["Wizard"]
 }, {
     "name": "Symbol",
-    "level": "seven",
+    "level": "7th Level",
     "type": "Abjuration",
     "casttime": "1 minute",
     "range": "Touch",
@@ -108,7 +108,7 @@
     "learnedby": ["Bard", "Cleric", "Wizard"]
 }, {
     "name": "Teleport",
-    "level": "seven",
+    "level": "7th Level",
     "type": "Conjuration",
     "casttime": "1 action",
     "range": "10 ft",

@@ -11,7 +11,6 @@
         <input type="text" ng-model="spellInfo.name" class="spell-name left" placeholder="Search..."/>
         <input type="image" alt="submit" ng-src="../assets/images/searchglass.png" class="magn-img left" value="Go" />
     </div>
-    <!-- <div class="clearfix"></div> -->
 
     <select class="spell-class left" ng-model="spellInfo.class" ng-change="submit(spellInfo)">
         <option value="">Choose a Class</option>
@@ -28,27 +27,27 @@
     <select class="spell-level left" ng-model="spellInfo.level" ng-change="submit(spellInfo)">
         <option value="">Choose a Level</option>
         <option value="cantrip">Cantrip</option>
-        <option value="one">1</option>
-        <option value="two">2</option>
-        <option value="three">3</option>
-        <option value="four">4</option>
-        <option value="five">5</option>
-        <option value="six">6</option>
-        <option value="seven">7</option>
-        <option value="eight">8</option>
-        <option value="nine">9</option>
+        <option value="1st Level">1</option>
+        <option value="2nd Level">2</option>
+        <option value="3rd Level">3</option>
+        <option value="4th Level">4</option>
+        <option value="5th Level">5</option>
+        <option value="6th Level">6</option>
+        <option value="7th Level">7</option>
+        <option value="8th Level">8</option>
+        <option value="9th Level">9</option>
     </select>
 </form>
 </div>
 
 <!-- <div class="clearfix"></div> -->
 
-<div class="toggle-container left">
+<div class="toggle-container">
+    Components:
+        <input type="checkbox" ng-model="componentsChecked" class="component-check"/>
     Type:
         <input type="checkbox" ng-model="typeChecked" />
-    Components:
-        <input type="checkbox" ng-model="componentsChecked" />
-        <br />
+        <!-- <br /> -->
     Description:
         <input type="checkbox" ng-model="descriptionChecked" />
     Class List:
@@ -59,7 +58,7 @@
 <div ng-repeat="spell in spellArray.response" class="spell-container left">
     <p>
         <div class="name"><b>{{spell.name}}</b></div>
-        <div class="level">Level {{spell.level}}</div>
+        <div class="level">{{spell.level}}</div>
         <div class="type" ng-hide="typeChecked"> {{spell.type}}</div>
     </p>
     <p>

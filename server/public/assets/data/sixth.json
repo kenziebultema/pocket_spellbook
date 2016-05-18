@@ -1,6 +1,6 @@
 {
     "name": "Arcane Gate",
-    "level": "six",
+    "level": "6th Level",
     "type": "Conjuration",
     "casttime": "1 action",
     "range": "500 ft",
@@ -12,7 +12,7 @@
     "learnedby": ["Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Chain Lightning",
-    "level": "six",
+    "level": "6th Level",
     "type": "Evocation",
     "casttime": "1 action",
     "range": "150 ft",
@@ -24,7 +24,7 @@
     "learnedby": ["Sorcerer", "Wizard"]
 }, {
     "name": "Circle of Death",
-    "level": "six",
+    "level": "6th Level",
     "type": "Necromancy",
     "casttime": "1 action",
     "range": "150 ft",
@@ -36,7 +36,7 @@
     "learnedby": ["Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Disintegrate",
-    "level": "six",
+    "level": "6th Level",
     "type": "Transmutation",
     "casttime": "1 action",
     "range": "60 ft",
@@ -48,7 +48,7 @@
     "learnedby": ["Sorcerer", "Wizard"]
 }, {
     "name": "Eyebite",
-    "level": "six",
+    "level": "6th Level",
     "type": "Necromancy",
     "casttime": "1 action",
     "range": "Self",
@@ -60,7 +60,7 @@
     "learnedby": ["Bard", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Globe of Invulnerability",
-    "level": "six",
+    "level": "6th Level",
     "type": "Abjuration",
     "casttime": "1 action",
     "range": "Self (10 ft radius)",
@@ -72,7 +72,7 @@
     "learnedby": ["Sorcerer", "Wizard"]
 }, {
     "name": "Mass Suggestion",
-    "level": "six",
+    "level": "6th Level",
     "type": "Enchantment",
     "casttime": "1 action",
     "range": "60 ft",
@@ -84,7 +84,7 @@
     "learnedby": ["Bard", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Move Earth",
-    "level": "six",
+    "level": "6th Level",
     "type": "Transmutation",
     "casttime": "1 action",
     "range": "120 ft",
@@ -96,7 +96,7 @@
     "learnedby": ["Druid", "Sorcerer", "Wizard"]
 }, {
     "name": "Sunbeam",
-    "level": "six",
+    "level": "6th Level",
     "type": "Evocation",
     "casttime": "1 action",
     "range": "Self (60 ft line)",
@@ -108,7 +108,7 @@
     "learnedby": ["Druid", "Sorcerer", "Wizard"]
 }, {
     "name": "True Seeing",
-    "level": "six",
+    "level": "6th Level",
     "type": "Divination",
     "casttime": "1 action",
     "range": "Touch",

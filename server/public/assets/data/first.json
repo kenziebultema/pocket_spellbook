@@ -1,6 +1,6 @@
 {
     "name": "Alarm",
-    "level": "one",
+    "level": "1st Level",
     "type": "Abjuration",
     "casttime": "1 minute",
     "range": "30 ft",
@@ -12,7 +12,7 @@
     "learnedby": ["Ranger", "Wizard"]
 }, {
     "name": "Animal Friendship",
-    "level": "one",
+    "level": "1st Level",
     "type": "Enchantment",
     "casttime": "1 action",
     "range": "30 ft",
@@ -24,7 +24,7 @@
     "learnedby": ["Bard", "Druid", "Ranger"]
 }, {
     "name": "Armor of Agathys",
-    "level": "one",
+    "level": "1st Level",
     "type": "Abjuration",
     "casttime": "1 action",
     "range": "Self",
@@ -36,7 +36,7 @@
     "learnedby": ["Warlock"]
 }, {
     "name": "Arms of Hadar",
-    "level": "one",
+    "level": "1st Level",
     "type": "Conjuration",
     "casttime": "1 action",
     "range": "Self, 10 ft radius",
@@ -48,7 +48,7 @@
     "learnedby": ["Warlock"]
 }, {
     "name": "Bane",
-    "level": "one",
+    "level": "1st Level",
     "type": "Enchantment",
     "casttime": "1 action",
     "range": "30 ft",
@@ -60,7 +60,7 @@
     "learnedby": ["Bard", "Cleric"]
 }, {
     "name": "Bless",
-    "level": "one",
+    "level": "1st Level",
     "type": "Enchantment",
     "casttime": "1 action",
     "range": "30 ft",
@@ -72,7 +72,7 @@
     "learnedby": ["Cleric", "Paladin"]
 }, {
     "name": "Burning Hands",
-    "level": "one",
+    "level": "1st Level",
     "type": "Evocation",
     "casttime": "1 action",
     "range": "Self, 15 ft cone",
@@ -84,7 +84,7 @@
     "learnedby": ["Sorcerer", "Wizard"]
 }, {
     "name": "Charm Person",
-    "level": "one",
+    "level": "1st Level",
     "type": "Enchantment",
     "casttime": "1 action",
     "range": "30 ft",
@@ -96,7 +96,7 @@
     "learnedby": ["Bard", "Druid", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Chromatic Orb",
-    "level": "one",
+    "level": "1st Level",
     "type": "Evocation",
     "casttime": "1 action",
     "range": "90 ft",
@@ -108,7 +108,7 @@
     "learnedby": ["Sorcerer", "Wizard"]
 }, {
     "name": "Color Spray",
-    "level": "one",
+    "level": "1st Level",
     "type": "Illusion",
     "casttime": "1 action",
     "range": "Self, 15 ft cone",

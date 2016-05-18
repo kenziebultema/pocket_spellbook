@@ -1,6 +1,6 @@
 {
     "name": "Astral Projection",
-    "level": "nine",
+    "level": "9th Level",
     "type": "Necromancy",
     "casttime": "1 hour",
     "range": "10 ft",
@@ -12,7 +12,7 @@
     "learnedby": ["Cleric", "Warlock", "Wizard"]
 }, {
     "name": "Foresight",
-    "level": "nine",
+    "level": "9th Level",
     "type": "Divination",
     "casttime": "1 minute",
     "range": "Touch",
@@ -24,7 +24,7 @@
     "learnedby": ["Bard", "Druid", "Warlock", "Wizard"]
 }, {
     "name": "Gate",
-    "level": "nine",
+    "level": "9th Level",
     "type": "Conjuration",
     "casttime": "1 action",
     "range": "60 ft",
@@ -36,7 +36,7 @@
     "learnedby": ["Cleric", "Sorcerer", "Wizard"]
 }, {
     "name": "Imprisonment",
-    "level": "nine",
+    "level": "9th Level",
     "type": "Abjuration",
     "casttime": "1 minute",
     "range": "30 ft",
@@ -48,7 +48,7 @@
     "learnedby": ["Warlock", "Wizard"]
 }, {
     "name": "Meteor Swarm",
-    "level": "nine",
+    "level": "9th Level",
     "type": "Evocation",
     "casttime": "1 action",
     "range": "1 mile",
@@ -60,7 +60,7 @@
     "learnedby": ["Sorcerer", "Wizard"]
 }, {
     "name": "Power Word Kill",
-    "level": "nine",
+    "level": "9th Level",
     "type": "Enchantment",
     "casttime": "1 action",
     "range": "60 ft",
@@ -72,7 +72,7 @@
     "learnedby": ["Bard", "Sorcerer", "Warlock", "Wizard"]
 }, {
     "name": "Prismatic Wall",
-    "level": "nine",
+    "level": "9th Level",
     "type": "Abjuration",
     "casttime": "1 action",
     "range": "60 ft",
@@ -84,7 +84,7 @@
     "learnedby": ["Wizard"]
 }, {
     "name": "Shapechange",
-    "level": "nine",
+    "level": "9th Level",
     "type": "Transmutation",
     "casttime": "1 action",
     "range": "Self",
@@ -96,7 +96,7 @@
     "learnedby": ["Druid", "Wizard"]
 }, {
     "name": "Time Stop",
-    "level": "nine",
+    "level": "9th Level",
     "type": "Transmutation",
     "casttime": "1 action",
     "range": "Self",
@@ -108,7 +108,7 @@
     "learnedby": ["Wizard"]
 }, {
     "name": "True Polymorph",
-    "level": "nine",
+    "level": "9th Level",
     "type": "Transmutation",
     "casttime": "1 action",
     "range": "30 ft",
